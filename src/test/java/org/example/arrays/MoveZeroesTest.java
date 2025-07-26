@@ -1,6 +1,5 @@
-package arrays;
+package org.example.arrays;
 
-import org.example.arrays.MoveZeroes;
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
