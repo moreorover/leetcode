@@ -1,4 +1,4 @@
-package org.example;
+package org.example.easy.arrays;
 
 public class BestTimeToBuyAndSellStock {
     public static int maxProfit(int[] prices) {

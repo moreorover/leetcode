@@ -1,6 +1,8 @@
-import org.example.MergeSortedArray;
+package org.example.easy.arrays;
+
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class MergeSortedArrayTest {
 

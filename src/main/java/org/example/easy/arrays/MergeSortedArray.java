@@ -1,4 +1,4 @@
-package org.example;
+package org.example.easy.arrays;
 
 public class MergeSortedArray {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -16,7 +16,7 @@ public class MergeSortedArray {
             k--;
         }
         while (j >= 0) {
-            nums1[k] =  nums2[j];
+            nums1[k] = nums2[j];
             j--;
             k--;
         }
