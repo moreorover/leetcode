@@ -1,8 +1,10 @@
-package org.example.arrays;
+package org.example.easy.arrays;
 
 import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 /**
  * Tests for MoveZeroes problem:

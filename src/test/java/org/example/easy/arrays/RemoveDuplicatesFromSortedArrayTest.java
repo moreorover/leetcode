@@ -1,4 +1,4 @@
-package org.example.arrays;
+package org.example.easy.arrays;
 
 import org.junit.jupiter.api.Test;
 

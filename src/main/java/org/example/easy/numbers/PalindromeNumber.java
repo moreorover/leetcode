@@ -1,4 +1,4 @@
-package org.example.numbers;
+package org.example.easy.numbers;
 
 public class PalindromeNumber {
     public static boolean isPalindrome(int x) {

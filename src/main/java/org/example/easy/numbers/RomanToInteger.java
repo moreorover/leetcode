@@ -1,4 +1,4 @@
-package org.example.numbers;
+package org.example.easy.numbers;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +18,7 @@ public class RomanToInteger {
 
         int result = 0;
 
-        for (int i = 0; i < chars.length ; i++) {
+        for (int i = 0; i < chars.length; i++) {
             int value = map.get(chars[i]);
 
             if (i + 1 < chars.length) {

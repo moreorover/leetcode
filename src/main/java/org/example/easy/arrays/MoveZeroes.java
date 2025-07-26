@@ -1,4 +1,4 @@
-package org.example.arrays;
+package org.example.easy.arrays;
 
 public class MoveZeroes {
     public static void moveZeroes(int[] nums) {
