@@ -37,12 +37,7 @@ public class EasyTasks {
     }
 
     public static String printerError(String s) {
-        int count = 0;
-        for (char l : s.toCharArray()) {
-            if (l > 'm') {
-                count++;
-            }
-        }
+        long count = s.chars().filter(c -> c > 'm').count();
         return count + "/" + s.length();
     }
 }
