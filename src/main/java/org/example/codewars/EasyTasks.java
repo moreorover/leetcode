@@ -40,4 +40,13 @@ public class EasyTasks {
         long count = s.chars().filter(c -> c > 'm').count();
         return count + "/" + s.length();
     }
+
+    public static String doubleChar(String s) {
+        StringBuilder sb = new StringBuilder();
+        for (String l : s.split("")) {
+            sb.append(l);
+            sb.append(l);
+        }
+        return sb.toString();
+    }
 }
