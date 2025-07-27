@@ -3,13 +3,29 @@ package org.example.easy.math;
 public class SqrtX {
     public static int mySqrt(int x) {
         if (x == 0 || x == 1) return x;
-        int c = 1;
+        int left = 1;
+        int right = x / 2;
+        int ans = 0;
 
-        // this can overflow
-        while (c * c < x && (c + 1) * (c + 1) <= x && c < x / 2) {
-            c++;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (mid <= x / mid) {
+                ans = mid;
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
         }
 
-        return c;
+        return ans;
+
+//        int c = 1;
+//
+//        // this can overflow
+//        while (c * c < x && (c + 1) * (c + 1) <= x && c < x / 2) {
+//            c++;
+//        }
+//
+//        return c;
     }
 }

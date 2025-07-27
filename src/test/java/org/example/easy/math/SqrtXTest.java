@@ -10,6 +10,7 @@ class SqrtXTest {
     void testPerfectSquares() {
         assertEquals(2, SqrtX.mySqrt(4), "Expected sqrt(4) = 2");
         assertEquals(3, SqrtX.mySqrt(9), "Expected sqrt(9) = 3");
+        assertEquals(5, SqrtX.mySqrt(25), "Expected sqrt(25) = 5");
         assertEquals(10, SqrtX.mySqrt(100), "Expected sqrt(100) = 10");
         assertEquals(46340, SqrtX.mySqrt(2147395600), "Expected sqrt(2147395600) = 46340");
     }
