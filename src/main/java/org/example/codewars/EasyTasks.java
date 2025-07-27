@@ -9,4 +9,16 @@ public class EasyTasks {
         }
         return sb.toString().trim();
     }
+
+    public static String getMiddle(String word) {
+        String[] w = word.split("");
+        if (word.length() % 2 == 1) {
+            int index = (word.length() - 1) / 2;
+            return w[index];
+        }
+
+        int half = word.length() / 2 - 1;
+
+        return w[half] + w[half + 1];
+    }
 }
