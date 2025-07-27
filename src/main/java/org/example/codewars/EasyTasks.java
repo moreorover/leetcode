@@ -21,4 +21,28 @@ public class EasyTasks {
 
         return w[half] + w[half + 1];
     }
+
+    public static String fakeBin(String numberString) {
+        String result = numberString;
+        result = result.replace("1", "0");
+        result = result.replace("2", "0");
+        result = result.replace("3", "0");
+        result = result.replace("4", "0");
+        result = result.replace("5", "1");
+        result = result.replace("6", "1");
+        result = result.replace("7", "1");
+        result = result.replace("8", "1");
+        result = result.replace("9", "1");
+        return result;
+    }
+
+    public static String printerError(String s) {
+        int count = 0;
+        for (char l : s.toCharArray()) {
+            if (l > 'm') {
+                count++;
+            }
+        }
+        return count + "/" + s.length();
+    }
 }
